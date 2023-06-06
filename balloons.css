@@ -11,7 +11,7 @@ h1 {
     border: solid 1px #4c0072; 
     background-color: #f0e6f5;
     padding: .5em;
-   
+    margin-bottom: 0;
 }
 
 h2 {
@@ -64,4 +64,19 @@ h3 {
     border-bottom: 1px solid;
     padding-bottom: 0.25em;
 
+}
+.Navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d9eece;
+    border: solid 1px #4c0072;
+    display: flex;
+}.Navigation a {
+    text-decoration: none;
+    display: block;
+    color: #226800;
+    font-weight: bold;
+    padding: 0.75em 1em;
+    background-color: #C4E8B1;
 }
